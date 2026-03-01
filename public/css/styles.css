@@ -1,3 +1,14 @@
+@keyframes fadeUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
 body {
     height: 100vh;
     margin: 0;
@@ -5,11 +16,19 @@ body {
     background-image: url(../images/bg-fixed-2.png);
 }
 
+/* class will appear when the button is triggered */
+.h1-after {
+    animation: fadeUp 1s ease;
+    
+}
+
 #content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 80vh;
+    
 }
 
 .form-login {
@@ -37,6 +56,17 @@ body {
     padding: 5px;
 
 }
+
+#loginButton {
+    cursor: pointer;
+}
+
+#loginButton:hover {
+    background-color: rgb(26, 50, 99, 70%);
+    color: aliceblue;
+
+}
+
 
 
 
