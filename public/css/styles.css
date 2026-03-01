@@ -18,7 +18,8 @@ body {
 
 /* class will appear when the button is triggered */
 .h1-after {
-    animation: fadeUp 1s ease;
+    margin-top : 280px;
+    animation: fadeUp 4s ease;
     
 }
 
@@ -29,6 +30,10 @@ body {
     align-items: center;
     height: 80vh;
     
+}
+
+.content-after {
+    visibility: hidden;
 }
 
 .form-login {
