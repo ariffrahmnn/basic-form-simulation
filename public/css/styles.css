@@ -1,3 +1,44 @@
-h1 {
-    color: aqua;
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+    background-image: url(../images/bg-fixed-2.png);
 }
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-login {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    gap: 20px;
+    padding: 35px;
+    border-radius: 10px;
+    background-color: rgb(26, 50, 99, 70%);
+    -webkit-box-shadow: 7px 11px 14px 0px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 7px 11px 14px 0px rgba(66, 68, 90, 1);
+    box-shadow: 7px 11px 14px 0px rgba(66, 68, 90, 1);
+}
+
+#loginButton {
+    width: 50px;
+    border-radius: 5px;
+    color: silver;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0C2C55;
+    border: none;
+    padding: 5px;
+
+}
+
+
+
+
+
