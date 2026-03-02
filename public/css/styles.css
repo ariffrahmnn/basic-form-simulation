@@ -18,8 +18,8 @@ body {
 
 /* class will appear when the button is triggered */
 .h1-after {
-    margin-top : 280px;
-    animation: fadeUp 4s ease;
+
+    animation: fadeUp 1s ease;
     
 }
 
